@@ -5,7 +5,7 @@
 body{
 	padding: 0px;
 	margin: 0px;
-	/*background-color: #c0c0c0;*/
+	background-color: #eee;
 }
 footer{
 	height: 100px;
@@ -14,92 +14,9 @@ footer{
   	position: relative;
   	padding: 10px;
   	text-align: center;
-  	box-shadow: 0 -5px 6px 0 rgba(0, 0, 0, 0.2)
-  	/*-moz-box-shadow: 0 -5px 6px #999;
-    -webkit-box-shadow: 0 -5px 6px #999;
-    box-shadow: 0 -5px 6px #999;*/
-}
-
-/* Grid division on the page */
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
-[class*="col-"] {
-    float: left;
-    /*border: 3px solid #73AD21;*/
-    padding: 20px;
-}
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-/* top menu styling */
-.menu {
-    overflow: hidden;
-    position:fixed;
-    top: 0;
-    width: 100%;
-    -webkit-box-shadow: 0 8px 6px -6px #999;
-    -moz-box-shadow: 0 8px 6px -6px #999;
-    box-shadow: 0 8px 6px -6px #999;
-    background-color: #333;
-    z-index: 100;
-}
-.menu a {
-    float: right;
-    display: block;
-    color: #eee;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-.menu a:hover{
-    background-color: #757575;
-    color: #fff;
-}
-
-.menu .icon {
-    display: none;
-}
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-.container {
-	width:80%;
-	/*border: 3px solid #73AD21;*/
-	margin: auto;
-	display: block;
-}
-
-.container p {
-	padding:0px;
-	text-align: left;
-	color: grey;
-}
-
-.container:first-child img {
-    display: block;
-    margin: auto;
-    width: 100%;
-    border-radius: 50%;
+  	box-shadow: 0 -5px 6px 0 rgba(0, 0, 0, 0.2);
+  	-moz-box-shadow: 0 -5px 6px 0 rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 -5px 6px 0 rgba(0, 0, 0, 0.2);
 }
 
 p {
@@ -138,6 +55,110 @@ h5{
 	color: grey;
 }
 
+/* Grid division on the page */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    /*border: 3px solid #73AD21;*/
+    padding: 20px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* Grid division on page ends*/
+
+/* top menu styling */
+.menu {
+    overflow: hidden;
+    position:fixed;
+    top: 0;
+    width: 100%;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+    background-color: #333;
+    z-index: 100;
+}
+.menu a {
+    float: right;
+    display: block;
+    color: #eee;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.menu a:hover{
+    background-color: #757575;
+    color: #fff;
+}
+
+.menu .icon {
+    display: none;
+}
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+
+/* top menu styling ends */
+
+/* start container styling */
+.container {
+	width:80%;
+	/*border: 3px solid #73AD21;*/
+	margin: auto;
+	display: block;
+}
+
+.container p {
+	padding:0px;
+	text-align: left;
+	color: grey;
+}
+
+.container:first-child img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.header{
+	position: relative;
+	top:0;
+	left: 0;
+	width: 100%;
+	/*margin: -20px 0px 20px -20px;*/
+	padding: 25px;
+	border-radius: 20px 20px 0px 0px;
+	background-color: #333;
+	text-align: center;
+	color: #fff;
+	font-size: 1.7em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+/* end container styling */
+
+/* start card styling */
 .card {
     margin-top: 30px;
     /*padding: 20px;*/
@@ -150,6 +171,9 @@ h5{
 	padding: 20px;
 }
 
+/* end card styling */
+
+/* start skills content card styling */
 .skill-bar{
 	width: 80%;
 	border-radius: 10px;
@@ -164,8 +188,7 @@ h5{
     line-height: 25px; 
     display: inline-block;
     color: white;
-/*    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-*/}
+}
 
 .skill-text {
 	text-align: left;
@@ -206,26 +229,7 @@ h5{
     color: grey ;
 }
 
-.button {
-    background-color: #fff;;
-    border: none;
-    color: #333;
-    padding: 10px 22px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 8px;
-    border: 2px solid #333;
-    font-size: 0.7em;
-    margin: 10px;
-    cursor: pointer;
-}
-
-.button:hover {
-	color: #eee;
-	background-color: #333;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
+/* end skills content card styling */
 
 /* Timeline properties*/
 time {
@@ -328,6 +332,15 @@ time {
 	color: grey;
 }
 
+.timeline-card-title{
+	display: block;
+	width: 100%;
+	text-align: right;
+	font-size: 1.0em;
+    font-family: 'Cambria', 'Georgia', 'serif';
+    color: grey;
+}
+
 /* Timeline ends*/
 
 
@@ -378,22 +391,29 @@ time {
 .overlay-container:hover .overlay {
 	height: 100%;
 }
-
-/* Project images cards*/
-.header{
-	position: relative;
-	top:0;
-	left: 0;
-	width: 100%;
-	/*margin: -20px 0px 20px -20px;*/
-	padding: 25px;
-	border-radius: 20px 20px 0px 0px;
-	background-color: #333;
-	text-align: center;
-	color: #fff;
-	font-size: 1.7em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+.button {
+    background-color: #fff;;
+    border: none;
+    color: #333;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    border: 2px solid #333;
+    font-size: 0.7em;
+    margin: 10px;
+    cursor: pointer;
 }
+
+.button:hover {
+	color: #eee;
+	background-color: #333;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/* Project images cards end*/
+
+/* responsive design break points */
 
 @media screen and (max-width: 1224px) {
   .timeline ul li div {
@@ -474,3 +494,4 @@ time {
     border-color: transparent #eeeeee transparent transparent;
   }
 }
+/* END */
