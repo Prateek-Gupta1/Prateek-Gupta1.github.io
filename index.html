@@ -10,53 +10,213 @@
 	<nav class="menu" id="topnav">
 		<ul>
 			<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="responsiveNavMenuIcon()">&#9776;</a>
-			<li><a href="#">Contact</a></li>
-			<li><a href="#">Skills</a></li>
-			<li><a href="#">Projects</a></li>
-			<li><a href="#">Work Experience</a></li>
+			<li><a href="#skills">Skills</a></li>
+			<li><a href="#projects">Projects</a></li>
+			<li><a href="#work">Work Experience</a></li>
 			<li><a href="#">Education</a></li>
-			<li><a href="#">About</a></li>	
+			<li><a href="#about">About</a></li>	
 		</ul>
 	</nav>
-	<div class="container" style="margin-top: 50px; padding: 10px">
+	<div class="container" style="margin-top: 50px; padding: 10px" id="about">
 		<div class="card">
-			
-			<div class="row">
+			<div class="header"></div>
+			<div class="row" style="background-color: #0ba360;">
 				<div class="col-6">
 					<div class="container">
-						<img src="images/mypic.jpg"/> <!-- style="width: 80%; border-radius:50%;" -->
+						<img src="images/test.png"/> <!-- style="width: 80%; border-radius:50%;" -->
 					</div>
 				</div>
 				<div class="col-6">
+				<h1 style="color: #fff">Prateek Gupta</h1>
 					<div class="row">
-						<h1>Prateek Gupta</h1>
-						<p> Hi there. I am a Software engineer with full stack development skills. I have 3 years of work experience in Software Industry and I am currently exploring more avenues in the realm of computing by pursuing Masters degree in Computer Science.</p> 
-						<p>Throughout my career I have developed Android Apps, Web Apps and had excursions in Data Science. I stand for code quality and performance, and like to keep my stuff ordered and structured. I enjoy working in teams and have learned a lot collaborating with others. As the saying goes "Two heads are better than one".</p>
-						<button class="button">Personally I am...</button>
+						<p style="color: #fff"><b>Android &nbsp;|&nbsp;  Web Application Developer </b></p>
+						<hr>
+						<p style="color: #fff;"> Hi there! I am a Software engineer with full stack development skills. I have 3 years of work experience in Software Industry, and I am currently exploring more avenues in the realm of computing by pursuing Masters degree in Computer Science.</p> 
+						<p style="color: #fff">Throughout my career I have developed Android Apps, Web Apps and had excursions in Data Science. I stand for code quality and performance, and like to keep my stuff ordered and structured. I enjoy working in teams and have learned many skills while collaborating with others. </p>
+						<p style="color: #fff; font-size: 1.0em"><b>Personally, I am calm, composed and humble. I enjoy watching animes and movies, and love to cook or eat different cuisines. Sometimes, I become a cyber vagarant and continuously watch videos on computer sciency stuff...</b></p>
+						<!-- <button class="button">Personally I am...</button> -->
 					</div>
 				</div>
 			</div>
-			<hr>
-			<div class="row">
-				<div class="col-6">
-					<div class="row">
+			
+			<div class="row" style="text-align: center;">
+				<div class="col-4">
+				<h4> Residence: <span class="detail">San Francisco</span></h4>
+					<!-- <div class="row">
 						<div class="social"><a href="https://www.linkedin.com/in/pgupta3091" target="_blank"><img src="images/Linkedin.png" style="width: 40%"></a></div>
 						<div class="social"><a href="https://www.github.com/Prateek-Gupta1" target="_blank"><img src="images/Github.png" style="width: 40%"></a></div>
 						<div class="social"><a href="https://www.instagram.com/prateek3091" target="_blank"><img src="images/Instagram.png" style="width: 40%"></a></div>
-					</div>
+					</div> -->
 				</div>
-				<div class="col-6">
-					<h4> Residence: <span class="detail">San Francisco</span></h4>
+				<div class="col-4">
 					<h4> Contact:  <span class="detail">+1 415-688-1159</span></h4>
+					
+				</div>
+				<div class="col-4">
 					<h4> Email:  <span class="detail">guptaprateek328@gmail.com</span></h4>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="container" style="padding: 10px;">
+
+<div class="container" id="work">
+	<div class="card">
+		<div class="header">Professional Experience</div>
+		<div class="card-body">
+		<div class="timeline">
+			<ul>
+				<time>July, 2013 - Oct, 2013</time>
+				<li class="in-view">
+					<div>
+						<h4>Trainee<span style=" text-align: right; width: 100%; display: inline-block;"><a href="https://www.tcs.com" target="_blank">Tata Consultancy Services (TCS)</a></span></h4>
+						<span class="timeline-text">This was the first time I got hands-on experience developing in a team to deliver a web based credit card reward management system using java servlets and later on ported it on struts. By some fun assessment activities I was chosen to lead a team of 6 to deliver the transaction management module and was the point of contact for Agile scrum meetings for my module. During the dev period I learned a lot about <b>Java, Servlets, HTTP protocols, design patterns, HTML, CSS and Project management</b>. After we successfully delivered, I was internally interviewed and selected for Innovation Labs (Research division of TCS). <br><br>PS: This project facilitator said that I may have chance to learn from professors of Stanford University if I join Innovation Labs.</span>
+					</div>
+				</li>
+				<br><br>
+				<time>Nov, 2013 - Mar, 2014</time>
+				<li class="in-view">
+					<div>
+						<h4>Assistant System Engineer Trainee<span style=" text-align: right; width: 100%; display: inline-block;"><a href="https://www.tcs.com" target="_blank">Innovation Labs (TCS)</a></span></h4>
+						<span class="timeline-text">Ding Dong! Its Prateek. I joined Innovation Labs in Mumbai, India and my first task was to fix code of previous programmer, whom I never met.  During this time I learned Ajax, JQuery, DataTable Api and Struts while fixing bugs. I ran optimizations on Database queries, fixed front end errors and structured the code base. The console showed performance improvements and my work was appreciated by clients and seniors.</span>
+					</div>
+				</li>
+				<li class="in-view">
+					<div>
+						<span class="timeline-text">Besides fixing the code base, I came across JSON and wrote a Parser for team. Later I used that parser and developed a Java Scheduler that downloaded historical weather data from vendor's api, parsed it and stored in MySQL database.</span>
+					</div>
+				</li>
+				<li class="in-view">
+					<div>
+						<span class="timeline-text">Fascinated by what one team was doing in Speech recognition, I took Stanford's online course on Machine Learning on Coursera. Turns out this is what they meant when they said that I'll learn from professors of Stanford University :|</span>
+					</div>
+				</li>
+
+				<br><br>
+				<time>April 2014 - May 2015</time>
+				<li class="in-view">
+					<div>
+						<h4>Assistant System Engineer <span style=" text-align: right; width: 100%; display: inline-block;"><a href="https://www.tcs.com" target="_blank">Innovation Labs (TCS)</a></span></h4>
+						<span class="timeline-text">I was bestowed with the task of developing a prototype system, namely Rural Participatory Sensing, which could help farmers monitor their farms, connect them with crop experts and allow agro commodity companies to analyse health of the farms from where they buy the produce.</span>
+					</div>
+				</li>
+				<li class="in-view">
+					<div>
+						<span class="timeline-text">Started gathering requirements, identified users, entities and actions. Documented everything and worked on Data Model of the system. Got everything approved and created schema in MySql server. Took inititive to develop the backend server of the system using Spring-Hibernate frameworks, and opened up data streams using RESTful API arcchitecture. The system was robust and highly maintainable.</span>
+					</div>
+				</li>
+				<li class="in-view">
+					<div>
+						<span class="timeline-text"> Meanwhile I was learning Android programming and building small projects. Designed mockups for android app taking suggestions from peers and stake holders. Following User-Centric design philosophy, completed my first feature rich app. The app was shipped to farmers across India and successfully captured data for grapes, potato, rice, tea and orange crops. The app was awarded by our clients and was being used to collect real time data. It was no longer a prototype.</span>
+					</div>
+				</li>
+				<li class="in-view">
+					<div>
+						<span class="timeline-text">Developed a web console that facilitated agro commodity companies and farmers to monitor farm health. Dashboard was made on Bootstrap, Jquery, DataTable API, Ajax, HTML and CSS. I proactively implemented Charts and Google maps to help users visulaize the data.</span>
+					</div>
+				</li>
+				<li class="in-view">
+					<div>
+						<span class="timeline-text">Published research paper based on crowdsourcing data.</span>
+					</div>
+				</li>
+				<br><br>
+				<time>June 2015 - June 2016</time>
+				<li class="in-view">
+					<div>
+						<h4>Systems Engineer <span style=" text-align: right; width: 100%; display: inline-block;"><a href="https://www.tcs.com" target="_blank">Innovation Labs (TCS)</a></span></h4>
+						<span class="timeline-text">I was bestowed with the task of developing a prototype system, namely Rural Participatory Sensing, which could help farmers monitor their farms, connect them with crop experts and allow agro commodity companies to analyse health of the farms from where they buy the produce.</span>
+					</div>
+				</li>
+				<!-- more list items here -->
+			</ul>
+		</div>
+		</div>
+	</div>
+</div>
+
+<div class="container" id="projects">
+	<div class="card">
+		<div class="header">Projects</div>
+		<div class="card-body">
+		<div class="row">
+			<div class="col-4">
+				<div class="polaroid">
+					<div class="overlay-container">
+						<img src="images/keepcount.png" align="Keep Count" width="100%" height="200px">
+						<div class="overlay">
+							<div class="text">Android app to keep track of personal events and activities</div>
+						</div>
+					</div>
+					<div class="polaroid-body"><a href="https://play.google.com/store/apps/details?id=app.pgupta.keepcount" target="_blank"><div class="button">Keep Count</div></a></div>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="polaroid">
+					<div class="overlay-container">
+						<img src="images/pong.png" align="Pong 2D" width="100%" height="200px">
+						<div class="overlay">
+							<div class="text">A bluetooth based multiplayer ping pong game developed for Android</div>
+						</div>
+					</div>
+					<div class="polaroid-body"><a href="https://github.com/Prateek-Gupta1/Pong2d" target="_blank"><div class="button">Pong 2D</div></a></div>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="polaroid">
+					<div class="overlay-container">
+						<img src="images/moviedb.png" align="Movie DB" width="100%" height="200px">
+						<div class="overlay">
+							<div class="text">Find movies and watch trailers</div>
+						</div>
+					</div>
+					<div class="polaroid-body"><a href="https://www.youtube.com/watch?v=k5XnkE_GHiY" target="_blank"><div class="button">Movie DB</div></a></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-4">
+				<div class="polaroid">
+					<div class="overlay-container">
+						<img src="images/sfsucongregators.png" align="SFSU Congregators" width="100%" height="300px">
+						<div class="overlay">
+							<div class="text">E-Commerce website exclusively for SFState students</div>
+						</div>
+					</div>
+					<div class="polaroid-body"><a href="https://drive.google.com/file/d/0B6c4-LAb2e2sVnJWOEhiMFBRUWc/view?usp=sharing" target="_blank"><div class="button">SFSU Congregators</div></a></div>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="polaroid">
+					<div class="overlay-container">
+						<img src="images/datamining.jpg" align="NaiveBayesianPython" width="100%" height="300px">
+						<div class="overlay">
+							<div class="text">Python implementation of Naive Bayes Algorithm</div>
+						</div>
+					</div>
+					<div class="polaroid-body"><a href="https://github.com/Prateek-Gupta1/NaiveBayesianPython" target="_blank"><div class="button">Naive Bayes Python</div></a></div>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="polaroid">
+					<div class="overlay-container">
+						<img src="images/mypic.jpg" align="Personal website" width="100%" height="300px">
+						<div class="overlay">
+							<div class="text">My personal online dossier</div>
+						</div>
+					</div>
+					<div class="polaroid-body"><a href="https://github.com/Prateek-Gupta1/NaiveBayesianPython" target="_blank"><div class="button">Personal Website</div></a></div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+</div>
+	<div class="container" style="padding: 10px; margin-bottom: 80px;" id="skills">
 		<div class="card">
-			<div style="width: 100%; text-align: center;"><h1>What I know</h1></div>
+			<div class = "header">Expertise and Skills</div>
+			<div class="card-body">
 			<div class="row">
 				<div class="col-6">
 					<h4> Core skills</h4>
@@ -148,127 +308,15 @@
 			</div>
 			<!-- <div style="width: 100%; text-align: left; padding-left: 20px"><h5>There is a lot more that I have learned while working on these...</h5>
 		</div> -->
-	</div>
-</div>
-
-<div class="container">
-	<div class="card">
-		<div style="width: 100%; text-align: center;"><h1>Professional Experience</h1></div>
-		<div class="timeline">
-			<ul>
-				<time>July, 2013 - Oct, 2013</time>
-				<li>
-					<div>
-						
-						
-						<h4>Trainee<span style=" text-align: right; width: 100%; display: inline-block;"><a href="https://www.tcs.com" target="_blank">Tata Consultancy Services (TCS)</a></span></h4>
-						<span style="font-family: 'Cambria', 'Georgia', 'serif'; color: grey">This was the first time I got hands-on experience developing in a team to deliver a web based credit card reward management system using java servlets and later on ported it on struts. By some fun assessment activities I was chosen to lead a team of 6 to deliver the transaction management module and was the point of contact for Agile scrum meetings for my module. During the dev period I learned a lot about <b>Java, Servlets, HTTP protocols, design patterns, HTML, CSS and Project management</b>. After we successfully delivered, I was internally interviewed and selected for Innovation Labs (Research division of TCS). <br><br>PS: Those folks at Innovation Labs said that I may have chance with Stanford University if I join them.</span>
-					</div>
-				</li>
-				<br>
-				<time>Nov, 2013 - Feb, 2014</time>
-				<li>
-					<div>
-
-						<h4>Assistant System Engineer <span style=" text-align: right; width: 100%; display: inline-block;"><a href="https://www.tcs.com" target="_blank">Innovation Labs (TCS)</a></span></h4>
-						<span style="font-family: 'Cambria', 'Georgia', 'serif'; color: grey">This was the first time I got hands-on experience developing in a team to deliver a web based credit card reward management system using java servlets and later on ported it on struts. By some fun assessment activities I was chosen to lead a team of 6 to deliver the transaction management module and was the point of contact for Agile scrum meetings for my module. During the dev period I learned a lot about <b>Java, Servlets, HTTP protocols, design patterns, HTML, CSS and Project management</b>. After we successfully delivered, I was internally interviewed and selected for Innovation Labs (Research division of TCS). <br><br>PS: Those folks at Innovation Labs said that I may have chance with Stanford University if I join them.</span>
-					</div>
-				</li>
-				<li>
-					<div>
-						<time>1934</time>
-						Some content here
-					</div>
-				</li>
-				<li>
-					<div>
-						<time>1934</time>
-						Some content here
-					</div>
-				</li>
-
-				<!-- more list items here -->
-			</ul>
 		</div>
 	</div>
 </div>
 
-<div class="container">
-	<div class="card">
-		<div style="width: 100%; text-align: center;"><h1>Projects</h1></div>
-		<div class="row">
-			<div class="col-4">
-				<div class="polaroid">
-					<div class="overlay-container">
-						<img src="images/keepcount.png" align="Keep Count" width="100%">
-						<div class="overlay">
-							<div class="text">Android app to keep track of personal events and activities</div>
-						</div>
-					</div>
-					<div class="polaroid-body"><a href="https://play.google.com/store/apps/details?id=app.pgupta.keepcount" target="_blank"><div class="button">Keep Count</div></a></div>
-				</div>
-			</div>
-			<div class="col-4">
-				<div class="polaroid">
-					<div class="overlay-container">
-						<img src="images/pong.png" align="Pong 2D" width="100%">
-						<div class="overlay">
-							<div class="text">A bluetooth based multiplayer ping pong game developed for Android</div>
-						</div>
-					</div>
-					<div class="polaroid-body"><a href="https://github.com/Prateek-Gupta1/Pong2d" target="_blank"><div class="button">Pong 2D</div></a></div>
-				</div>
-			</div>
-			<div class="col-4">
-				<div class="polaroid">
-					<div class="overlay-container">
-						<img src="images/moviedb.png" align="Movie DB" width="100%">
-						<div class="overlay">
-							<div class="text">Find movies and watch trailers</div>
-						</div>
-					</div>
-					<div class="polaroid-body"><a href="https://www.youtube.com/watch?v=k5XnkE_GHiY" target="_blank"><div class="button">Movie DB</div></a></div>
-				</div>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-4">
-				<div class="polaroid">
-					<div class="overlay-container">
-						<img src="images/sfsucongregators.png" align="SFSU Congregators" width="100%">
-						<div class="overlay">
-							<div class="text">E-Commerce website exclusively for SFState students</div>
-						</div>
-					</div>
-					<div class="polaroid-body"><a href="https://drive.google.com/file/d/0B6c4-LAb2e2sVnJWOEhiMFBRUWc/view?usp=sharing" target="_blank"><div class="button">SFSU Congregators</div></a></div>
-				</div>
-			</div>
-			<div class="col-4">
-				<div class="polaroid">
-					<div class="overlay-container">
-						<img src="images/datamining.jpg" align="NaiveBayesianPython" width="100%">
-						<div class="overlay">
-							<div class="text">Python implementation of Naive Bayes Algorithm</div>
-						</div>
-					</div>
-					<div class="polaroid-body"><a href="https://github.com/Prateek-Gupta1/NaiveBayesianPython" target="_blank"><div class="button">Naive Bayes Python</div></a></div>
-				</div>
-			</div>
-			<div class="col-4">
-				<div class="polaroid">
-					<div class="overlay-container">
-						<img src="images/mypic.jpg" align="Personal website" width="100%">
-						<div class="overlay">
-							<div class="text">My online personal dossier</div>
-						</div>
-					</div>
-					<div class="polaroid-body"><a href="https://github.com/Prateek-Gupta1/NaiveBayesianPython" target="_blank"><div class="button">Personal Website</div></a></div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
 </body>
+
+	<footer><p> &copy; &nbsp;Prateek Gupta 2017</p></footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
+<!-- <script type="text/javascript" src="js/main.js"></script> -->
 </html>
